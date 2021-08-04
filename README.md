@@ -10,4 +10,4 @@ By putting the applications in the same repository, it is very easy to keep chan
 
 Changes to the front end & changes to the backend can be made on the same branch, merged at the same time & deployed simultaneously.
 
-Nginx can be used as a reverse proxy, - multiple applications will appear externally no different to a single applications.
+Nginx can be used as a reverse proxy, - multiple applications will appear externally no different to a single application.
