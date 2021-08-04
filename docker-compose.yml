@@ -1,0 +1,20 @@
+services:
+  reverse_proxy:
+    build: ./nginx
+    ports:
+      - "8081:80"
+
+  rails_admin:
+    build: ./admin
+    ports:
+      - "3002:3002"
+
+  rails_backend:
+    build: ./api
+    ports:
+      - "3001:3001"
+
+  react_frontend:
+    build: ./frontend
+    ports:
+      - '3000:3000'
